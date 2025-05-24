@@ -9,6 +9,8 @@ function App() {
               <Main/>
               <Footer/>
           </>}/>
+          <Route path={'/'} element={<h1>ERROR</h1>}/>
+          <Route path={'*'} element={<h1>ERROR</h1>}/>
       </Routes>
   );
 }
