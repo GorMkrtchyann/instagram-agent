@@ -18,7 +18,7 @@ export const Footer = () => {
                 <li><a href="#">HASHTAGS</a></li>
                 <li><a href="#">IDIOMA</a></li>
             </ul>
-            <p className="copyright">© {new Date().getFullYear()} Instagram do Meta</p>
+            <p className="copyright">© {new Date().getFullYear()} Instagram</p>
         </footer>
     )
 }
